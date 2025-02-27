@@ -1,11 +1,10 @@
 import HumanizingPage from "./component/HumanizingPage";
-import LoginPage from "./component/signin";
+import SignIn from "./component/Login/SignIn";
 
 function App() {
   return (
     <>
-      <LoginPage />
-      {/* <HumanizingPage /> */}
+      <SignIn />
     </>
   );
 }
