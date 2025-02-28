@@ -10,8 +10,8 @@ function CheckYourMail() {
         credentials.
       </p>
 
-      <a href="./" className="forgot-password">
-        Login to account
+      <a href="./" className="back-to-login">
+        Login to Account
       </a>
     </form>
   );

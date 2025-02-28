@@ -53,14 +53,14 @@ body {
   font-weight: 700;
   font-size: 32px;
   line-height: 32px;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
 }
 
 .login-form p {
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 33px;
   margin-top: 0px;
 }
 
@@ -72,7 +72,7 @@ body {
   border: 1px solid #ed0707;
   border-radius: 8px;
   padding: 10px 16px;
-  margin-bottom: 16px;
+  margin-bottom: 25px;
   text-align: left;
   font-size: 15px;
   width: 375px;
@@ -101,7 +101,7 @@ body {
   font-weight: 400;
   border: 2px solid #d8d8d8;
   border-radius: 8px;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
   padding: 14px 16px;
   padding-left: 40px;
   font-size: 16px;
@@ -110,6 +110,19 @@ body {
   width: 350px;
   color: #494949;
   transition: border-color 0.2s ease;
+}
+
+/* Add this new class for input-specific error messages */
+.input-error-message {
+  color: #ed0707;
+  font-size: 14px; /* Adjust font size as needed */
+  font-weight: 455;
+  line-height: 16px;
+  margin-top: -13px; /* Adjust margin as needed */
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 0px;
+  display: block; /* Ensure it takes its own line */
 }
 
 /* .input-container input[type="email"]:focus,
@@ -156,6 +169,8 @@ body {
   padding: 12px;
   font-size: 16px;
   cursor: pointer;
+  font-weight: 700;
+  width: 405px;
 }
 
 .input-container button:hover {
@@ -183,7 +198,7 @@ a:hover {
   font-weight: 400;
   border: 2px solid #d8d8d8;
   border-radius: 8px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   padding: 14px 16px;
   padding-left: 40px;
   font-size: 16px;
@@ -195,7 +210,7 @@ a:hover {
 
 .input-with-icon img {
   position: absolute;
-  top: 38%;
+  top: 34%;
   left: 15px;
   transform: translateY(-50%);
   width: 15px;
@@ -270,4 +285,49 @@ a:hover {
     align-items: center;
   }
 }
+
 /* ForgetPassword */
+.back-to-login {
+  color: #0868de;
+  display: block; /* Ensures it takes its own line */
+  margin-top: 20px; /* Increases the gap */
+  text-align: center;
+}
+
+.reset-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.reset-input-container input[type="email"],
+.reset-input-container input[type="text"] {
+  font-weight: 400;
+  border: 2px solid #d8d8d8;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  padding: 14px 16px;
+  padding-left: 40px;
+  font-size: 16px;
+  line-height: 16px;
+  outline: none;
+  width: 350px;
+  color: #494949;
+  transition: border-color 0.2s ease;
+}
+
+.reset-input-container button {
+  background-color: #057c80;
+  color: white;
+  border: none;
+  border-radius: 24px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 700;
+  width: 405px;
+  margin-bottom: 13px;
+}
+
+.reset-input-container button:hover {
+  background-color: #045b5c;
+}

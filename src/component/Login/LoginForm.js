@@ -144,7 +144,7 @@ function LoginForm() {
           />
         </div>
 
-        {emailError && <p className="error-message">{emailError}</p>}
+        {emailError && <div className="input-error-message">{emailError}</div>}
         {/* Show error message */}
         <div className="input-with-icon">
           <img src="password_lock-808080.svg" alt="password-icon" />
@@ -169,7 +169,7 @@ function LoginForm() {
             <img src="eye-icon-808080.svg" alt="password-show-icon" />
           </div>
         </div>
-        {passwordError && <p className="error-message">{passwordError}</p>}
+        {passwordError && <div className="input-error-message">{passwordError}</div>}
         <div className="remember-me-forgot-password">
           <label className="remember-me">
             <input

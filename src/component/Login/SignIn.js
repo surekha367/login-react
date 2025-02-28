@@ -14,7 +14,7 @@ function SignIn() {
             {/* <LoginForm /> */}
             {/* <ForgetPassword /> */}
             {/* <CheckYourMail /> */}
-            {/* <ResetPassword /> */}
+            <ResetPassword />
             {/* <PasswordUpdated /> */}
           </div>
         </div>

@@ -6,12 +6,12 @@ function CheckYourMail() {
       <img src={checkEmail} />
       <h1>Check your mail</h1>
       <p>
-        Check your email Please check the email address Johndoe@Innovation.com
+        Please check the email address Johndoe@Innovation.com
         for instructions to reset your password.
       </p>
 
-      <a href="./" className="forgot-password">
-        Back to login
+      <a href="./" className="back-to-login">
+        Back to Login
       </a>
     </form>
   );

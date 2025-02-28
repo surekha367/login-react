@@ -1,4 +1,4 @@
-import HumanizingPage from "./component/HumanizingPage";
+// import HumanizingPage from "./component/HumanizingPage";
 import SignIn from "./component/Login/SignIn";
 
 function App() {

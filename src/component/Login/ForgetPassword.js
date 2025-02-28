@@ -67,11 +67,11 @@ function ForgetPassword() {
     <form className="login-form" onSubmit={handleSubmit}>
       <h1>Reset your password</h1>
       <p>
-        Enter your phone number or email, and we'll send reset instructions if
+        Enter your email, and we'll send reset instructions if
         we find an account associated with it.
       </p>
 
-      <div className="input-container">
+      <div className="reset-input-container">
         <div className="input-with-icon">
           <img src="email-808080.svg" alt="email-icon" />
           <input
@@ -88,11 +88,11 @@ function ForgetPassword() {
           />
         </div>
 
-        {emailError && <p className="error-message">{emailError}</p>}
+        {emailError && <div className="input-error-message">{emailError}</div>}
         <button type="submit">Send recovery link</button>
       </div>
-      <a href="./" className="forgot-password">
-        Back to login
+      <a href="./" className="back-to-login">
+        Back to Login
       </a>
     </form>
   );
